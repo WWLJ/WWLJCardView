@@ -1,0 +1,477 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		6C0703821B56405F00FA6514 /* LJCardView.m in Sources */ = {isa = PBXBuildFile; fileRef = 6C0703811B56405F00FA6514 /* LJCardView.m */; };
+		6C0703851B5662AD00FA6514 /* MyImageView.m in Sources */ = {isa = PBXBuildFile; fileRef = 6C0703841B5662AD00FA6514 /* MyImageView.m */; };
+		6CA89FBC1B563BD50053C35C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 6CA89FBB1B563BD50053C35C /* main.m */; };
+		6CA89FBF1B563BD50053C35C /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 6CA89FBE1B563BD50053C35C /* AppDelegate.m */; };
+		6CA89FC21B563BD50053C35C /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6CA89FC11B563BD50053C35C /* ViewController.m */; };
+		6CA89FC51B563BD50053C35C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6CA89FC31B563BD50053C35C /* Main.storyboard */; };
+		6CA89FC71B563BD50053C35C /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6CA89FC61B563BD50053C35C /* Images.xcassets */; };
+		6CA89FCA1B563BD50053C35C /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6CA89FC81B563BD50053C35C /* LaunchScreen.xib */; };
+		6CA89FD61B563BD50053C35C /* LJCardViewTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6CA89FD51B563BD50053C35C /* LJCardViewTests.m */; };
+		6CA89FE11B563BF20053C35C /* iCarousel.m in Sources */ = {isa = PBXBuildFile; fileRef = 6CA89FE01B563BF20053C35C /* iCarousel.m */; };
+		6CA89FE81B563D9E0053C35C /* 0.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 6CA89FE21B563D9E0053C35C /* 0.jpg */; };
+		6CA89FE91B563D9E0053C35C /* 1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 6CA89FE31B563D9E0053C35C /* 1.jpg */; };
+		6CA89FEA1B563D9E0053C35C /* 2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 6CA89FE41B563D9E0053C35C /* 2.jpg */; };
+		6CA89FEB1B563D9E0053C35C /* 3.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 6CA89FE51B563D9E0053C35C /* 3.jpg */; };
+		6CA89FEC1B563D9E0053C35C /* 4.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 6CA89FE61B563D9E0053C35C /* 4.jpg */; };
+		6CA89FED1B563D9E0053C35C /* 5.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 6CA89FE71B563D9E0053C35C /* 5.jpg */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		6CA89FD01B563BD50053C35C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6CA89FAE1B563BD50053C35C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6CA89FB51B563BD50053C35C;
+			remoteInfo = LJCardView;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		6C0703801B56405F00FA6514 /* LJCardView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LJCardView.h; sourceTree = "<group>"; };
+		6C0703811B56405F00FA6514 /* LJCardView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LJCardView.m; sourceTree = "<group>"; };
+		6C0703831B5662AD00FA6514 /* MyImageView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyImageView.h; sourceTree = "<group>"; };
+		6C0703841B5662AD00FA6514 /* MyImageView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyImageView.m; sourceTree = "<group>"; };
+		6CA89FB61B563BD50053C35C /* LJCardView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LJCardView.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		6CA89FBA1B563BD50053C35C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6CA89FBB1B563BD50053C35C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		6CA89FBD1B563BD50053C35C /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		6CA89FBE1B563BD50053C35C /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		6CA89FC01B563BD50053C35C /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		6CA89FC11B563BD50053C35C /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		6CA89FC41B563BD50053C35C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		6CA89FC61B563BD50053C35C /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		6CA89FC91B563BD50053C35C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		6CA89FCF1B563BD50053C35C /* LJCardViewTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LJCardViewTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		6CA89FD41B563BD50053C35C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6CA89FD51B563BD50053C35C /* LJCardViewTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LJCardViewTests.m; sourceTree = "<group>"; };
+		6CA89FDF1B563BF20053C35C /* iCarousel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = iCarousel.h; sourceTree = "<group>"; };
+		6CA89FE01B563BF20053C35C /* iCarousel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = iCarousel.m; sourceTree = "<group>"; };
+		6CA89FE21B563D9E0053C35C /* 0.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 0.jpg; sourceTree = "<group>"; };
+		6CA89FE31B563D9E0053C35C /* 1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 1.jpg; sourceTree = "<group>"; };
+		6CA89FE41B563D9E0053C35C /* 2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 2.jpg; sourceTree = "<group>"; };
+		6CA89FE51B563D9E0053C35C /* 3.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 3.jpg; sourceTree = "<group>"; };
+		6CA89FE61B563D9E0053C35C /* 4.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 4.jpg; sourceTree = "<group>"; };
+		6CA89FE71B563D9E0053C35C /* 5.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 5.jpg; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		6CA89FB31B563BD50053C35C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6CA89FCC1B563BD50053C35C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		6CA89FAD1B563BD50053C35C = {
+			isa = PBXGroup;
+			children = (
+				6CA89FB81B563BD50053C35C /* LJCardView */,
+				6CA89FD21B563BD50053C35C /* LJCardViewTests */,
+				6CA89FB71B563BD50053C35C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		6CA89FB71B563BD50053C35C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6CA89FB61B563BD50053C35C /* LJCardView.app */,
+				6CA89FCF1B563BD50053C35C /* LJCardViewTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		6CA89FB81B563BD50053C35C /* LJCardView */ = {
+			isa = PBXGroup;
+			children = (
+				6CA89FDF1B563BF20053C35C /* iCarousel.h */,
+				6CA89FE01B563BF20053C35C /* iCarousel.m */,
+				6C0703801B56405F00FA6514 /* LJCardView.h */,
+				6C0703811B56405F00FA6514 /* LJCardView.m */,
+				6C0703831B5662AD00FA6514 /* MyImageView.h */,
+				6C0703841B5662AD00FA6514 /* MyImageView.m */,
+				6CA89FBD1B563BD50053C35C /* AppDelegate.h */,
+				6CA89FBE1B563BD50053C35C /* AppDelegate.m */,
+				6CA89FC01B563BD50053C35C /* ViewController.h */,
+				6CA89FC11B563BD50053C35C /* ViewController.m */,
+				6CA89FC31B563BD50053C35C /* Main.storyboard */,
+				6CA89FC61B563BD50053C35C /* Images.xcassets */,
+				6CA89FC81B563BD50053C35C /* LaunchScreen.xib */,
+				6CA89FB91B563BD50053C35C /* Supporting Files */,
+			);
+			path = LJCardView;
+			sourceTree = "<group>";
+		};
+		6CA89FB91B563BD50053C35C /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				6CA89FE21B563D9E0053C35C /* 0.jpg */,
+				6CA89FE31B563D9E0053C35C /* 1.jpg */,
+				6CA89FE41B563D9E0053C35C /* 2.jpg */,
+				6CA89FE51B563D9E0053C35C /* 3.jpg */,
+				6CA89FE61B563D9E0053C35C /* 4.jpg */,
+				6CA89FE71B563D9E0053C35C /* 5.jpg */,
+				6CA89FBA1B563BD50053C35C /* Info.plist */,
+				6CA89FBB1B563BD50053C35C /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		6CA89FD21B563BD50053C35C /* LJCardViewTests */ = {
+			isa = PBXGroup;
+			children = (
+				6CA89FD51B563BD50053C35C /* LJCardViewTests.m */,
+				6CA89FD31B563BD50053C35C /* Supporting Files */,
+			);
+			path = LJCardViewTests;
+			sourceTree = "<group>";
+		};
+		6CA89FD31B563BD50053C35C /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				6CA89FD41B563BD50053C35C /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		6CA89FB51B563BD50053C35C /* LJCardView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6CA89FD91B563BD50053C35C /* Build configuration list for PBXNativeTarget "LJCardView" */;
+			buildPhases = (
+				6CA89FB21B563BD50053C35C /* Sources */,
+				6CA89FB31B563BD50053C35C /* Frameworks */,
+				6CA89FB41B563BD50053C35C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = LJCardView;
+			productName = LJCardView;
+			productReference = 6CA89FB61B563BD50053C35C /* LJCardView.app */;
+			productType = "com.apple.product-type.application";
+		};
+		6CA89FCE1B563BD50053C35C /* LJCardViewTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6CA89FDC1B563BD50053C35C /* Build configuration list for PBXNativeTarget "LJCardViewTests" */;
+			buildPhases = (
+				6CA89FCB1B563BD50053C35C /* Sources */,
+				6CA89FCC1B563BD50053C35C /* Frameworks */,
+				6CA89FCD1B563BD50053C35C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6CA89FD11B563BD50053C35C /* PBXTargetDependency */,
+			);
+			name = LJCardViewTests;
+			productName = LJCardViewTests;
+			productReference = 6CA89FCF1B563BD50053C35C /* LJCardViewTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		6CA89FAE1B563BD50053C35C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0630;
+				ORGANIZATIONNAME = iShareme;
+				TargetAttributes = {
+					6CA89FB51B563BD50053C35C = {
+						CreatedOnToolsVersion = 6.3.2;
+					};
+					6CA89FCE1B563BD50053C35C = {
+						CreatedOnToolsVersion = 6.3.2;
+						TestTargetID = 6CA89FB51B563BD50053C35C;
+					};
+				};
+			};
+			buildConfigurationList = 6CA89FB11B563BD50053C35C /* Build configuration list for PBXProject "LJCardView" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 6CA89FAD1B563BD50053C35C;
+			productRefGroup = 6CA89FB71B563BD50053C35C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				6CA89FB51B563BD50053C35C /* LJCardView */,
+				6CA89FCE1B563BD50053C35C /* LJCardViewTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		6CA89FB41B563BD50053C35C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6CA89FEC1B563D9E0053C35C /* 4.jpg in Resources */,
+				6CA89FEA1B563D9E0053C35C /* 2.jpg in Resources */,
+				6CA89FE81B563D9E0053C35C /* 0.jpg in Resources */,
+				6CA89FED1B563D9E0053C35C /* 5.jpg in Resources */,
+				6CA89FC51B563BD50053C35C /* Main.storyboard in Resources */,
+				6CA89FCA1B563BD50053C35C /* LaunchScreen.xib in Resources */,
+				6CA89FC71B563BD50053C35C /* Images.xcassets in Resources */,
+				6CA89FEB1B563D9E0053C35C /* 3.jpg in Resources */,
+				6CA89FE91B563D9E0053C35C /* 1.jpg in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6CA89FCD1B563BD50053C35C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		6CA89FB21B563BD50053C35C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6CA89FC21B563BD50053C35C /* ViewController.m in Sources */,
+				6C0703821B56405F00FA6514 /* LJCardView.m in Sources */,
+				6CA89FE11B563BF20053C35C /* iCarousel.m in Sources */,
+				6CA89FBF1B563BD50053C35C /* AppDelegate.m in Sources */,
+				6C0703851B5662AD00FA6514 /* MyImageView.m in Sources */,
+				6CA89FBC1B563BD50053C35C /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6CA89FCB1B563BD50053C35C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6CA89FD61B563BD50053C35C /* LJCardViewTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		6CA89FD11B563BD50053C35C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 6CA89FB51B563BD50053C35C /* LJCardView */;
+			targetProxy = 6CA89FD01B563BD50053C35C /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		6CA89FC31B563BD50053C35C /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6CA89FC41B563BD50053C35C /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		6CA89FC81B563BD50053C35C /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6CA89FC91B563BD50053C35C /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		6CA89FD71B563BD50053C35C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		6CA89FD81B563BD50053C35C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		6CA89FDA1B563BD50053C35C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = LJCardView/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		6CA89FDB1B563BD50053C35C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = LJCardView/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		6CA89FDD1B563BD50053C35C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = LJCardViewTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LJCardView.app/LJCardView";
+			};
+			name = Debug;
+		};
+		6CA89FDE1B563BD50053C35C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = LJCardViewTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LJCardView.app/LJCardView";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		6CA89FB11B563BD50053C35C /* Build configuration list for PBXProject "LJCardView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6CA89FD71B563BD50053C35C /* Debug */,
+				6CA89FD81B563BD50053C35C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6CA89FD91B563BD50053C35C /* Build configuration list for PBXNativeTarget "LJCardView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6CA89FDA1B563BD50053C35C /* Debug */,
+				6CA89FDB1B563BD50053C35C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6CA89FDC1B563BD50053C35C /* Build configuration list for PBXNativeTarget "LJCardViewTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6CA89FDD1B563BD50053C35C /* Debug */,
+				6CA89FDE1B563BD50053C35C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 6CA89FAE1B563BD50053C35C /* Project object */;
+}
